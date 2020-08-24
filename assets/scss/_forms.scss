@@ -1,0 +1,19 @@
+.form-group {
+  & > label {
+    font-weight: bold;
+    @include font-size(.8125rem);
+    line-height: 1;
+    margin-bottom: .5rem;
+  }
+}
+
+.custom-file-label {
+  font-weight: bold;
+}
+
+fieldset:not(:disabled) .form-control,
+.form-control:not(:disabled) {
+  @include hover {
+    border-color: $input-focus-border-color;
+  }
+}

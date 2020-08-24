@@ -1,0 +1,43 @@
+.text-green-dark {
+  color: var(--green-dark);
+}
+
+a.text-green-dark {
+  @include hover-focus() {
+    color: var(--green);
+  }
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+a.text-gray {
+  @include hover-focus {
+    color: var(--gray-dark);
+  }
+}
+
+.text-gray-dark {
+  color: var(--gray-dark);
+}
+
+.text-gray-light {
+  color: var(--gray-light);
+}
+
+a.text-white.underline {
+  border-color: rgba($white, .5);
+
+  @include hover-focus {
+    border-color: $white;
+  }
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-red-dark {
+  color: var(--red-dark);
+}

@@ -1,0 +1,27 @@
+.svg-icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  color: inherit;
+  vertical-align: middle;
+}
+
+.svg-fill {
+  fill: currentColor;
+  stroke: none;
+}
+
+.svg-stroke {
+  fill: none !important;
+  stroke: currentColor;
+}
+
+.svg-fill-stroke {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+.svg-none {
+  fill: none !important;
+  stroke: none !important;
+}

@@ -1,0 +1,24 @@
+.btn {
+  &:not(.btn-flat).disabled,
+  &:not(.btn-flat):disabled {
+    @include box-shadow($btn-box-shadow);
+  }
+}
+
+.btn-only-icon {
+  width: $input-height;
+  height: $input-height;
+  padding: 0 !important;
+  position: relative;
+
+  .svg-icon {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
